@@ -1,0 +1,18 @@
+workflows:
+  ios-build:
+    name: iOS Build
+    environment:
+      xcode: latest
+      vars:
+        XCODE_PROJECT: "GameBuilderAI.xcodeproj"
+        XCODE_SCHEME: "GameBuilderAI"
+    scripts:
+      - name: Build iOS app
+        script: |
+          xcodebuild -project "$XCODE_PROJECT" -scheme "$XCODE_SCHEME" -sdk iphoneos -configuration Release clean build
+    artifacts:
+      - build/ios/ipa/*.ipa
+    publishing:
+      email:
+        recipients:
+          - ton@email.com
