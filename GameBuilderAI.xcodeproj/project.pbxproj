@@ -1,0 +1,56 @@
+// !$*UTF8*$!
+{
+  archiveVersion = 1;
+  classes = {};
+  objectVersion = 55;
+  objects = {
+
+    /* Project reference */
+    1D6058900D05DD3D006BFB54 /* Project object */ = {
+      isa = PBXProject;
+      attributes = {
+        LastUpgradeCheck = 1300;
+        ORGANIZATIONNAME = "Nathan Melki";
+        TargetAttributes = {
+          1D6058910D05DD3E006BFB54 = {
+            CreatedOnToolsVersion = 13.0;
+            DevelopmentTeam = YOURTEAMID;
+          };
+        };
+      };
+      buildConfigurationList = 1D60589A0D05DD3E006BFB54 /* Build configuration list for PBXProject */;
+      compatibilityVersion = "Xcode 13.0";
+      developmentRegion = en;
+      hasScannedForEncodings = 0;
+      knownRegions = (
+        en,
+        Base,
+      );
+      mainGroup = 1D60588D0D05DD3D006BFB54;
+      productRefGroup = 1D60588E0D05DD3D006BFB54;
+      projectDirPath = "";
+      projectRoot = "";
+      targets = (
+        1D6058910D05DD3E006BFB54 /* GameBuilderAI */,
+      );
+    };
+
+    /* Target for your app */
+    1D6058910D05DD3E006BFB54 /* GameBuilderAI */ = {
+      isa = PBXNativeTarget;
+      buildConfigurationList = 1D6058990D05DD3E006BFB54;
+      buildPhases = (
+        1D6058930D05DD3E006BFB54,
+        1D6058940D05DD3E006BFB54,
+        1D6058950D05DD3E006BFB54,
+      );
+      buildRules = ();
+      dependencies = ();
+      name = GameBuilderAI;
+      productName = GameBuilderAI;
+      productType = "com.apple.product-type.application";
+    };
+
+  };
+  rootObject = 1D6058900D05DD3D006BFB54 /* Project object */;
+}
